@@ -25,6 +25,7 @@
 /turf/open/floor/plating,
 /area/ship/engineering)
 "aF" = (
+/obj/item/circuitboard/mecha/pod,
 /turf/open/floor/engine,
 /area/ship/engineering)
 "aR" = (
@@ -103,6 +104,7 @@
 /area/ship/bridge)
 "cl" = (
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/item/pod_parts/core,
 /turf/open/floor/engine,
 /area/ship/engineering)
 "cB" = (
@@ -665,6 +667,7 @@
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
 "qz" = (
+/obj/structure/spacepoddoor,
 /obj/machinery/door/poddoor{
 	id = "whiteship_port"
 	},
@@ -692,7 +695,7 @@
 "qL" = (
 /obj/machinery/button/door{
 	id = "whiteship_port";
-	name = "Blast Door Control";
+	name = "Spacepod Blast Door Control";
 	pixel_y = 26
 	},
 /obj/effect/turf_decal/industrial/warning{
@@ -846,7 +849,7 @@
 "te" = (
 /obj/machinery/button/door{
 	id = "whiteship_port";
-	name = "Blast Door Control";
+	name = "Spacepod Blast Door Control";
 	pixel_x = 1;
 	pixel_y = -31
 	},
@@ -1414,6 +1417,7 @@
 /turf/open/floor/plasteel,
 /area/ship/bridge)
 "CQ" = (
+/obj/item/pod_parts/armor/industrial,
 /turf/open/floor/engine,
 /area/ship/engineering)
 "CS" = (
@@ -1487,6 +1491,9 @@
 "DX" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 8
+	},
+/obj/spacepod{
+	dir = 2
 	},
 /turf/open/floor/engine,
 /area/ship/engineering)
@@ -2050,6 +2057,7 @@
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/engineering/atmospherics)
 "OP" = (
+/obj/item/spacepod_equipment/weaponry/basic_pod_ka,
 /turf/open/floor/engine,
 /area/ship/engineering)
 "OR" = (

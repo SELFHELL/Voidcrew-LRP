@@ -52,6 +52,10 @@ map midwayship
 	votable
 endmap
 
+map pubbyship
+	votable
+endmap
+
 map skipper
 	votable
 endmap

@@ -60,10 +60,6 @@
 - config/game_options.txt
 	- Modifies roundstart races
 
-### Admin Tools
-- code\modules\admin\admin_verbs.dm
-	- Adds a toggleable ship purchasing verb
-
 ### Ship Spawning
 - code/__HELPERS/game.dm
 	- Modifies /proc/AnnounceArrival() for custom ship announcement things

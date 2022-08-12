@@ -1898,6 +1898,7 @@
 /area/ruin/powered/golem_ship)
 "On" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/item/pod_parts/pod_frame/aft_port,
 /turf/open/floor/mineral/titanium/yellow,
 /area/ruin/powered/golem_ship)
 "Ox" = (
@@ -2085,6 +2086,7 @@
 "SG" = (
 /obj/effect/turf_decal/industrial/outline/yellow,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/pod_parts/pod_frame/fore_port,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/powered/golem_ship)
 "SR" = (
@@ -2098,6 +2100,7 @@
 /turf/open/floor/plasteel/dark,
 /area/ruin/powered/golem_ship)
 "SV" = (
+/obj/item/pod_parts/pod_frame/fore_starboard,
 /obj/effect/turf_decal/trimline/yellow/line{
 	dir = 1
 	},
@@ -2229,6 +2232,7 @@
 "Vy" = (
 /obj/effect/turf_decal/industrial/outline/yellow,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/pod_parts/pod_frame/aft_starboard,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/powered/golem_ship)
 "VY" = (
